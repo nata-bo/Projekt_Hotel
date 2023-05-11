@@ -1,5 +1,5 @@
 public class MyDate {
-    private  int day;
+    private int day;
     private int month;
     private int year;
 
@@ -11,7 +11,19 @@ public class MyDate {
 
     @Override
     public String toString() {
-        return day +"/" + month + "/" + year;
+        return day + "/" + month + "/" + year;
     }
-    // написать метод который сравнивает даты какая из них раньше а какая позже
+
+    public int getDay() {
+        return day;
+    }
+
+    public int getMonth() {
+        return month;
+    }
+
+    public int getYear() {
+        return year;
+    }
+
 }
