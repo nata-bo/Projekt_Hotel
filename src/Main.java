@@ -26,7 +26,7 @@ public class Main {
         System.out.println(bookingProcessing);
 
 
-
+        System.out.println(booking.getEarlyDate(new MyDate(15,5,2023),new MyDate(15,5,2023)));
 
     }
 }
